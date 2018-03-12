@@ -53,5 +53,5 @@ const top = device.IS_X ? 100 : 0
 | IS_2G_3G_3GS  |  
 
 ### Why?
-There are others out there like react-native-iphone-x-helper. Difference is this one gives you more stuff.
+There are others out there (like the inspiration for RND - react-native-iphone-x-helper). Difference is this one gives you more stuff.
 
