@@ -1,8 +1,9 @@
 <p align="center">
 <img src="logo.png" alt="metro logo" />
 </p>
+
 # react-native-devices
-React Native helper for iOS devices.
+<p>React Native helper for iOS devices.</p>
 
 ### Usage
 ```javacript
