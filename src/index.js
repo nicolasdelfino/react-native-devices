@@ -19,7 +19,7 @@ const DEVICE_IS_2G_3G_3GS = () => w === 320 && h === 480
 /*
   IF
 */
-const DEVICE_IF_X = (a, b) => IS_X() ? a : b
+const DEVICE_IF_X = (a, b) => DEVICE_IS_X() ? a : b
 const DEVICE_IF_Plus_6_6s_7_8 = (a, b) => DEVICE_IS_Plus_6_6s_7_8() ? a : b
 const DEVICE_IF_6_6s_7_8 = (a, b) => DEVICE_IS_6_6s_7_8() ? a : b
 const DEVICE_IF_5_5s_5c_SE = (a, b) => DEVICE_IS_5_5s_5c_SE() ? a : b
