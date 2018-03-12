@@ -4,7 +4,7 @@
 # react-native-devices
 React Native helper for iOS devices.
 
-###Usage
+### Usage
 ```javacript
 yarn add react-native-devices
 ```
