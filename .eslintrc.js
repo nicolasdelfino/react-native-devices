@@ -34,16 +34,7 @@ module.exports = {
   },
   plugins: ['prefer-object-spread'],
   rules: {
-    'import/extensions': [
-      'error',
-      'always',
-      {
-        js: 'never',
-        jsx: 'never',
-        styl: 'never',
-        css: 'never'
-      }
-    ],
+    'import/extensions': 0,
     'no-shadow': 0,
     'no-tabs': 0,
     'no-use-before-define': 0,
@@ -64,7 +55,7 @@ module.exports = {
     'import/no-named-default': 1,
     'no-unused-vars': 1,
     'consistent-return': 1,
-    'import/prefer-default-export': 1,
+    'import/prefer-default-export': 0,
     'no-console': 1,
     'jsx-a11y/no-static-element-interactions': 1,
     'no-case-declarations': 1,
@@ -75,7 +66,7 @@ module.exports = {
     'spaced-comment': [2, 'always', { markers: ['?'] }],
     'arrow-parens': [2, 'as-needed', { requireForBlockBody: false }],
     'brace-style': [2, 'stroustrup'],
-    'import/no-unresolved': [2, { commonjs: true, caseSensitive: true }],
+    'import/no-unresolved': [0, { commonjs: true, caseSensitive: true }],
     'no-unused-expressions': [
       2,
       {
